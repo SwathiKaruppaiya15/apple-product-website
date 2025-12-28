@@ -1,16 +1,63 @@
-# React + Vite
+# 🍏 Apple Product Website (Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Apple product showcase website built with **React + Vite + Tailwind CSS + Three.js**.  
+Clean UI, smooth animations, and a product model viewer inspired by Apple's official design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Fully responsive UI with polished Apple-style design
+- Interactive 3D Macbook model viewer
+- Smooth scrolling and section transitions
+- Highlight section with product showcase videos
+- Performance comparison & feature sections
+- Fast build using **Vite**
+- Clean and maintainable folder structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/TailwindCSS-latest-38B2AC?logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Vite-fast-646CFF?logo=vite" />
+  <img src="https://img.shields.io/badge/Three.js-3D-black?logo=three.js" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+</p>
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Used For |
+|----------|----------|
+| React     | UI Components |
+| Vite      | Build tool (Fast Dev Server) |
+| Tailwind  | Styling & Layout |
+| Three.js  | 3D Model Rendering |
+| JavaScript | Core logic |
+| GSAP / Framer Motion *(if used)* | Animations |
+
+---
+
+## 📂 Project Structure
+apple-product-website/
+├── public/ # Assets (images, videos, models)
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── constants/ # Reusable data
+│ ├── assets/ # Static resources
+│ ├── store/ # State management
+│ ├── main.jsx # Entry point
+│ └── App.jsx # Root component
+├── index.html
+├── package.json
+└── README.md
+
+
+---
+
+## 🔧 How to Run Locally
+
+```bash
+git clone https://github.com/SwathiKaruppaiya15/apple-website.git
+cd apple-website
+npm install
+npm run dev
